@@ -15,6 +15,8 @@
 		5DFAD12322E5BCB600E13867 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFAD12222E5BCB600E13867 /* main.m */; };
 		5DFAD12D22E5BCB700E13867 /* HBFullScreenNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFAD12C22E5BCB700E13867 /* HBFullScreenNavigationTests.m */; };
 		5DFAD13822E5BCB700E13867 /* HBFullScreenNavigationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFAD13722E5BCB700E13867 /* HBFullScreenNavigationUITests.m */; };
+		5DFAD14822E5BD3B00E13867 /* HBAnimationManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFAD14722E5BD3B00E13867 /* HBAnimationManage.m */; };
+		5DFAD14B22E5BDCF00E13867 /* HBFullNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFAD14A22E5BDCE00E13867 /* HBFullNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		5DFAD13322E5BCB700E13867 /* HBFullScreenNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBFullScreenNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFAD13722E5BCB700E13867 /* HBFullScreenNavigationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBFullScreenNavigationUITests.m; sourceTree = "<group>"; };
 		5DFAD13922E5BCB700E13867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DFAD14622E5BD3B00E13867 /* HBAnimationManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBAnimationManage.h; sourceTree = "<group>"; };
+		5DFAD14722E5BD3B00E13867 /* HBAnimationManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBAnimationManage.m; sourceTree = "<group>"; };
+		5DFAD14922E5BDCE00E13867 /* HBFullNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBFullNavigationController.h; sourceTree = "<group>"; };
+		5DFAD14A22E5BDCE00E13867 /* HBFullNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBFullNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		5DFAD11222E5BCAA00E13867 /* HBFullScreenNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				5DFAD14522E5BCF300E13867 /* HBFullScreen */,
 				5DFAD11322E5BCAA00E13867 /* AppDelegate.h */,
 				5DFAD11422E5BCAA00E13867 /* AppDelegate.m */,
 				5DFAD11622E5BCAA00E13867 /* ViewController.h */,
@@ -130,6 +137,17 @@
 				5DFAD13922E5BCB700E13867 /* Info.plist */,
 			);
 			path = HBFullScreenNavigationUITests;
+			sourceTree = "<group>";
+		};
+		5DFAD14522E5BCF300E13867 /* HBFullScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5DFAD14622E5BD3B00E13867 /* HBAnimationManage.h */,
+				5DFAD14722E5BD3B00E13867 /* HBAnimationManage.m */,
+				5DFAD14922E5BDCE00E13867 /* HBFullNavigationController.h */,
+				5DFAD14A22E5BDCE00E13867 /* HBFullNavigationController.m */,
+			);
+			path = HBFullScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DFAD14B22E5BDCF00E13867 /* HBFullNavigationController.m in Sources */,
 				5DFAD11822E5BCAA00E13867 /* ViewController.m in Sources */,
+				5DFAD14822E5BD3B00E13867 /* HBAnimationManage.m in Sources */,
 				5DFAD12322E5BCB600E13867 /* main.m in Sources */,
 				5DFAD11522E5BCAA00E13867 /* AppDelegate.m in Sources */,
 			);
